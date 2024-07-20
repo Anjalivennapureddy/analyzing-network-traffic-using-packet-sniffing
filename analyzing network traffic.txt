@@ -1,0 +1,14 @@
+# HTTP Request Method == POST
+
+This repository documents the use of the command http.request.method==POST.
+
+## Description
+
+The command http.request.method==POST is used to filter HTTP requests that use the POST method. This can be particularly useful in network analysis, penetration testing, or debugging web applications.
+
+## Usage
+
+To use this command in Wireshark or tshark, you can apply it as a display filter. Here’s an example:
+
+```bash
+tshark -Y "http.request.method==POST"
